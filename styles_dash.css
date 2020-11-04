@@ -1,0 +1,49 @@
+.header-nav{
+    padding-top:20px;
+}
+.navbar-brand{
+    text-decoration: none;
+    font-family:'Pacifico',cursive;
+    color:#FF7C5D !important;
+}
+body{
+    background:url(images/bg1.png) no-repeat;
+    background-size:100% 100%;
+    height:100vh;
+}
+@media(max-height:620px){
+    .header-nav,.content{
+        height:23rem;
+    }
+}
+.content-box>h1{
+    position:relative;
+    top:50px;
+    color:#FF7C5D;
+    font-family: 'Pacifico', cursive;
+    font-size:5rem;
+}
+
+#change-color{
+    color:#C70151;
+}
+
+.choose_exam{
+    border:3px solid black;
+    border-radius:0.5rem;
+    padding:2%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+label{
+    font-family: 'Permanent Marker', cursive;
+}
+.subject{
+    margin : 5px;
+}
+.choose_intro{
+    font-family: 'Pacifico', cursive;
+}
